@@ -13,7 +13,7 @@ DESC
   s.source       = { :git => "https://github.com/iziz/libPhoneNumber-iOS.git", :tag => "0.7.3" }
   s.ios.framework    = 'CoreTelephony'
   s.ios.deployment_target = "4.3"
-  s.osx.deployment_target = "10.9"
+  s.osx.deployment_target = "10.6"
   s.requires_arc = true
   s.source_files = 'libPhoneNumber/NBPhoneNumber.{h,m}', 'libPhoneNumber/NBNumberFormat.{h,m}', 'libPhoneNumber/NBPhoneNumberDesc.{h,m}', 'libPhoneNumber/NBPhoneMetaData.{h,m}', 'libPhoneNumber/NBPhoneNumberUtil.{h,m}', 'libPhoneNumber/NBAsYouTypeFormatter.{h,m}', 'libPhoneNumber/NBPhoneNumberDefines.h', 'libPhoneNumber/NSArray+NBAdditions.{h,m}'
   s.resources = "libPhoneNumber/Metadata\ Classes/NBPhoneNumberMetadata.plist"
